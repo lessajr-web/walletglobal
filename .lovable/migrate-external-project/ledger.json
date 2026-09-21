@@ -1,0 +1,97 @@
+{
+  "project": "Wallet Global",
+  "source": "wallet-global-code-bundle.json",
+  "capabilities": [
+    {
+      "capability": "Static application code",
+      "source": "7 bundled public/wallet files",
+      "outcome": "preserve",
+      "status": "verified",
+      "next_action": "None"
+    },
+    {
+      "capability": "Marketplace catalog",
+      "source": "market-data.js and market.js",
+      "outcome": "preserve",
+      "status": "verified",
+      "next_action": "None"
+    },
+    {
+      "capability": "Personal, business, and admin flows",
+      "source": "app.js",
+      "outcome": "preserve",
+      "status": "verified",
+      "next_action": "None"
+    },
+    {
+      "capability": "USDT deposits and withdrawals",
+      "source": "deposit.js and app.js",
+      "outcome": "preserve",
+      "status": "verified",
+      "next_action": "None"
+    },
+    {
+      "capability": "Session state",
+      "source": "browser-local static application",
+      "outcome": "preserve",
+      "status": "verified",
+      "next_action": "None"
+    },
+    {
+      "capability": "Authentication identities",
+      "source": "No external provider or export detected",
+      "outcome": "absent",
+      "status": "verified",
+      "next_action": "None"
+    },
+    {
+      "capability": "Database records",
+      "source": "No data store detected; catalog bundled in source",
+      "outcome": "absent",
+      "status": "verified",
+      "next_action": "None"
+    },
+    {
+      "capability": "Uploaded file bytes",
+      "source": "No uploaded runtime media detected",
+      "outcome": "absent",
+      "status": "verified",
+      "next_action": "None"
+    },
+    {
+      "capability": "External providers and secrets",
+      "source": "No required variables or dependencies detected",
+      "outcome": "absent",
+      "status": "verified",
+      "next_action": "None"
+    },
+    {
+      "capability": "Public endpoints, callbacks, webhooks, schedules",
+      "source": "Static bundle",
+      "outcome": "absent",
+      "status": "verified",
+      "next_action": "None"
+    },
+    {
+      "capability": "Root entry",
+      "source": "Lovable scaffold",
+      "outcome": "replace",
+      "status": "verified",
+      "next_action": "None"
+    },
+    {
+      "capability": "Cutover and publishing",
+      "source": "User explicitly excluded public publishing",
+      "outcome": "defer",
+      "status": "accepted",
+      "next_action": "None"
+    },
+    {
+      "capability": "Verification",
+      "source": "Requested Marketplace purchase journey",
+      "outcome": "preserve",
+      "status": "verified",
+      "next_action": "None"
+    }
+  ]
+}
